@@ -1,0 +1,27 @@
+* { box-sizing: border-box; }
+body { font-family: Segoe UI, Arial, sans-serif; background: #f4f5f7; color: #222; margin: 0; }
+header { background: #1f2937; color: #fff; padding: 10px 16px; position: sticky; top: 0; z-index: 5; }
+header h1 { font-size: 16px; margin: 0 0 8px; }
+#exam-nav { display: flex; flex-wrap: wrap; gap: 6px; }
+#exam-nav button { background: #374151; color: #fff; border: 0; padding: 6px 10px; border-radius: 4px; cursor: pointer; font-size: 13px; }
+#exam-nav button.on { background: #2563eb; }
+main { max-width: 900px; margin: 0 auto; padding: 16px; }
+h2 { margin: 8px 0 2px; }
+.muted { color: #666; font-size: 13px; margin: 2px 0 10px; }
+#tabs { display: flex; gap: 6px; margin-bottom: 8px; }
+#tabs button { padding: 7px 14px; border: 1px solid #bbb; background: #fff; border-radius: 4px; cursor: pointer; }
+#tabs button.on { background: #2563eb; color: #fff; border-color: #2563eb; }
+.q { background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 12px; margin-bottom: 12px; }
+.q .t { font-weight: 600; margin-bottom: 8px; white-space: pre-wrap; }
+pre { background: #111827; color: #e5e7eb; padding: 10px; border-radius: 4px; overflow-x: auto; font-size: 13px; margin: 6px 0 10px; }
+.opt { display: block; width: 100%; text-align: left; padding: 8px 10px; margin: 4px 0; border: 1px solid #ccc; background: #fafafa; border-radius: 4px; cursor: pointer; font-size: 14px; }
+.opt:hover { background: #eef2ff; }
+.opt.right { background: #d1fae5; border-color: #10b981; }
+.opt.wrong { background: #fee2e2; border-color: #ef4444; }
+.opt.done { cursor: default; }
+.why { margin-top: 8px; padding: 8px; border-radius: 4px; background: #eef2ff; font-size: 14px; display: none; }
+.why.show { display: block; }
+textarea { width: 100%; min-height: 260px; font-family: Consolas, monospace; font-size: 14px; padding: 8px; border: 1px solid #aaa; border-radius: 4px; tab-size: 4; }
+.btn { margin-top: 8px; padding: 8px 14px; border: 0; background: #2563eb; color: #fff; border-radius: 4px; cursor: pointer; }
+.ans { display: none; margin-top: 8px; }
+.ans.show { display: block; }
